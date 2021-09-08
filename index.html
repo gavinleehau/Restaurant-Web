@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<title> Example </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script type="text/javascript" src="vendor/bootstrap.js"></script>
+	<script type="text/javascript" src="vendor/isotope.pkgd.min.js"></script><!-- để tạo hiệu ứng lúc chuyển màn hình-->
+	<script type="text/javascript" src="vendor/imagesloaded.pkgd.min.js"></script> <!-- để load ảnh nếu ko sẽ bị lỗi-->
+	<script type="text/javascript" src="1.js"></script>
+	<!-- load bootstrap -->
+	<link rel="stylesheet" href="vendor/bootstrap.css">
+	<link rel="stylesheet" href="vendor/font-awesome.css">
+	<link rel="stylesheet" href="vendor/bootstrap.css">
+	<!-- load font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+ 	<link rel="stylesheet" href="1.css">
+</head>
+<body >
+	<div class="topheader">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="mangxh float-sm-left text-xs-center text-sm-left">
+						<a href=""><i class="fa fa-facebook"></i></a>
+						<a href=""><i class="fa fa-twitter"></i></a>
+						<a href=""><i class="fa fa-instagram"></i></a>
+						<a href=""><i class="fa fa-cloud"></i></a>
+
+					</div>
+					<div class="datban wow pulse">
+						Call for reservation: (+84) 009 002 001
+					</div>
+				</div>
+				<div class="col-sm-5">
+					<div class="datban openingtop float-sm-right text-sm-left text-xs-center  wow pulse">
+						Opening Hours : 9:00am - 10:00pm
+					</div>
+				</div>
+				<div class="col-sm-1">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-6  float-sm-right text-sm-left text-xs-center  ENG">
+								ENG <i class="fa fa-angle-down"></i>
+							</div>
+							<div class="col-sm-6 float-sm-right text-sm-left text-xs-center  bell">
+								<i class="fa fa-bell" style="color: orange;"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END ROW -->
+		</div>
+	</div>
+	<!-- END TOP HEADER -->
+
+
+	<div class="logovamenu">
+		<nav class="navbar navbar-light fontroboto">
+			<div class="container">
+				<button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#mtren"></button>
+				
+				<div class="collapse navbar-toggleable-xs logo" id="mtren">
+					<a class="navbar-brand text-xs-center" href="index.html"><img src="images/logo.png" alt=""></a>
+					<ul class="nav navbar-nav float-sm-right">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">About</a>
+						</li>
+						<!-- <li class="nav-item">
+							<a class="nav-link" href="#">Menu</a>
+						</li> -->
+						<li class="nav-item">
+							<a class="nav-link" href="blog.html">Blog</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+						<li class="nav-item datbanmenu">
+							<a class="nav-link btn btn-warning wow bounce" data-wow-iteration="2" href="#">Reservation</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- end container -->
+		</nav>
+	</div>
+	<!-- end logovamenu -->
+
+	
+	<!-- Slide mon-->
+	<div class="slide">
+		<div id="slidemonantren" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#slidemonantren" data-slide-to="0" class="active"></li>
+				<li data-target="#slidemonantren" data-slide-to="1"></li>
+				<li data-target="#slidemonantren" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="slidetren carousel-item  active" style="background-image: url('images/01.jpg')">
+					<div class="chu">
+						<h2>The Fresh And Tasty Burgers</h2>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. <br>Nesciunt sed iusto laborum, reprehenderit ipsum, sit sunt saepe incidunt. Consequatur, iure.</p>
+						<a href="" class="nutslide btn btn-warning">Buy Now</a>
+					</div>
+				</div>
+				<!-- END 1 carousel -->
+				<div class="slidetren carousel-item " style="background-image: url('images/02.jpg')">
+					<div class="chu">
+						<h2>The Fresh And Tasty Burgers</h2>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit.<br>Nesciunt sed iusto laborum, reprehenderit ipsum, sit sunt saepe incidunt. Consequatur, iure.</p>
+						<a href="" class="nutslide btn btn-warning">Buy Now</a>
+					</div>
+				</div>
+				<!-- END 1 carousel -->
+				<div class="slidetren carousel-item " style="background-image: url('images/03.jpg')"> 
+					<div class="chu">
+						<h2>The Fresh And Tasty Burgers</h2>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. <br> Nesciunt sed iusto laborum, reprehenderit ipsum, sit sunt saepe incidunt. Consequatur, iure.</p>
+						<a href="" class="nutslide btn btn-warning">Buy Now</a>
+					</div>
+				</div>
+				<!-- END 1 carousel -->
+			</div>
+			<a class="left carousel-control" href="#slidemonantren" role="button" data-slide="prev">
+				<span class="icon-prev" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#slidemonantren" role="button" data-slide="next">
+				<span class="icon-next" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+	<!-- END slide -->
+
+	
+	<div class="badichvu">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 wow fadeInUp">
+					<a href="">
+						<img src="images/bvd1.jpg" alt="" class="img-fluid"></img></a>
+						<h3>Our Restaurant Story</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa explicabo quasi ad placeat sapiente ab ipsam corporis consectetur molestiabvd2</p>
+						<a href="" class="readmore">Readmore</a>
+				</div>
+
+				<div class="col-sm-4 wow fadeInDown">
+					<a href="">
+						<img src="images/bvd2.jpg" alt="" class="img-fluid"></img></a>
+						<h3>Our Restaurant Story</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa explicabo quasi ad placeat sapiente ab ipsam corporis consectetur molestiabvd2</p>
+						<a href="" class="readmore">Readmore</a>
+				</div>
+
+				<div class="col-sm-4 wow fadeInUp">
+					<a href="">
+						<img src="images/bvd3.jpg" alt="" class="img-fluid"></img></a>
+						<h3>Our Restaurant Story</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa explicabo quasi ad placeat sapiente ab ipsam corporis consectetur molestiabvd2</p>
+						<a href="" class="readmore">Readmore</a>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+	<!-- END badichvu -->
+
+	
+	
+	<div class="khoimenu" >
+		<div class="tieudekhoimenu text-xs-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8 push-sm-2">
+						<span class="tieudephu">Our Delicious Food</span>
+						<h3 class="tieudechinh fontoswald">Fresh And Healthy Food Available</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END tieudekhoimenu -->
+	</div>
+	<!-- END khoimenu -->
+
+
+
+	<!-- thucdonct -->
+	<div class="thucdonct wow fadeInUp">
+		<div class="tieudect text-xs-center">
+			<a href="" data-monan="*">All</a> <!-- data- :Đấy là cách lấy dữ liệu trong html(* là lấy hết) -->
+			<a href="" data-monan=".sang">Breakfast</a>
+			<a href="" data-monan=".trua">Lunch</a>
+			<a href="" data-monan=".toi">Dinner</a>
+		</div>
+		
+		<div class="noidungct">
+			<div class="container">
+				<div class="row nhieumon">
+					<!-- trên dien thoai thi 12 cot, ipad 2 cot, lớn hon ipad 3 cot, lon nhat 4 cot -->
+					<div class="col-xs-12 col-sm-6 col-md-4  motmon sang">
+						<div class="row">
+							<div class="col-xs-3 col-sm-4">
+								<!-- ben trai la ảnh -->
+								<div class="anhnmon">
+									<div class="tagnew">NEW</div>
+									<img src="images/goicuon.jpg" alt=""  width="105">
+								</div>
+							</div>
+							<!-- ben phai la món -->
+							<div class="col-xs-9 col-sm-8 in4monan">
+								<div class="tenmon">
+									<div class="tren">
+										<span class="float-xs-right">50.000 VND</span>
+										<b class="ten">Goi cuon</b>
+									</div>
+									<div class="duoi">
+										nuoc mam, nuoc tuong
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- END row -->
+					</div> 
+					<!-- END motmon -->
+					<div class="col-xs-12 col-sm-6 col-md-4  motmon trua">
+						<div class="row">
+							<div class="col-xs-3 col-sm-4">
+								<!-- ben trai la ảnh -->
+								<div class="anhnmon">
+									<!-- <div class="tagnew">NEW</div> -->
+									<img src="images/bokho.jpg" alt="" width="105" height="105">
+								</div>
+							</div>
+							<!-- ben phai la món -->
+							<div class="col-xs-9 col-sm-8 in4monan">
+								<div class="tenmon">
+									<div class="tren">
+										<span class="float-xs-right">40.000 VND</span>
+										<b class="ten">Bò Kho</b>
+									</div>
+									<div class="duoi">
+										nuoc mam, nuoc tuong
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- END row -->
+					</div> 
+					<!-- END motmon -->
+					<div class="col-xs-12 col-sm-6 col-md-4  motmon toi">
+						<div class="row">
+							<div class="col-xs-3 col-sm-4">
+								<!-- ben trai la ảnh -->
+								<div class="anhnmon">
+									<div class="tagnew">NEW</div>
+									<img src="images/caolau.jpg" alt="" width="105" height="105">
+								</div>
+							</div>
+							<!-- ben phai la món -->
+							<div class="col-xs-9 col-sm-8 in4monan">
+								<div class="tenmon">
+									<div class="tren">
+										<span class="float-xs-right">30.000 VND</span>
+										<b class="ten">Cao Lầu</b>
+									</div>
+									<div class="duoi">
+										nuoc mam, nuoc tuong
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- END row -->
+					</div> 
+					<!-- END motmon -->
+					<div class="col-xs-12 col-sm-6 col-md-4  motmon sang">
+						<div class="row">
+							<div class="col-xs-3 col-sm-4">
+								<!-- ben trai la ảnh -->
+								<div class="anhnmon">
+									<!-- <div class="tagnew">NEW</div> -->
+									<img src="images/pho.jpg" alt="" width="105" height="105">
+								</div>
+							</div>
+							<!-- ben phai la món -->
+							<div class="col-xs-9 col-sm-8 in4monan">
+								<div class="tenmon">
+									<div class="tren">
+										<span class="float-xs-right">59.000 VND</span>
+										<b class="ten">Pho</b>
+									</div>
+									<div class="duoi">
+										nuoc mam, nuoc tuong
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- END row -->
+					</div> 
+					<!-- END motmon -->
+					<div class="col-xs-12 col-sm-6 col-md-4  motmon trua">
+						<div class="row">
+							<div class="col-xs-3 col-sm-4">
+								<!-- ben trai la ảnh -->
+								<div class="anhnmon">
+									<div class="tagnew">NEW</div>
+									<img src="images/banhcuon.jpg" alt="" width="105" height="105">
+								</div>
+							</div>
+							<!-- ben phai la món -->
+							<div class="col-xs-9 col-sm-8 in4monan">
+								<div class="tenmon">
+									<div class="tren">
+										<span class="float-xs-right">20.000 VND</span>
+										<b class="ten">Bánh Cuốn</b>
+									</div>
+									<div class="duoi">
+										nuoc mam, nuoc tuong
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- END row -->
+					</div> 
+					<!-- END motmon -->
+					<div class="col-xs-12 col-sm-6 col-md-4  motmon toi">
+						<div class="row">
+							<div class="col-xs-3 col-sm-4">
+								<!-- ben trai la ảnh -->
+								<div class="anhnmon">
+									<!-- <div class="tagnew">NEW</div> -->
+									<img src="images/comtam.png" alt="" width="105" height="105">
+								</div>
+							</div>
+							<!-- ben phai la món -->
+							<div class="col-xs-9 col-sm-8 in4monan">
+								<div class="tenmon">
+									<div class="tren">
+										<span class="float-xs-right">20.000 VND</span>
+										<b class="ten">Cơm Tấm</b>
+									</div>
+									<div class="duoi">
+										nuoc mam, nuoc tuong
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- END row -->
+					</div> 
+					<!-- END motmon -->
+					<div class="col-xs-12 col-sm-6 col-md-4  motmon sang">
+						<div class="row">
+							<div class="col-xs-3 col-sm-4">
+								<!-- ben trai la ảnh -->
+								<div class="anhnmon">
+									<div class="tagnew">NEW</div>
+									<img src="images/banhmi.jpg" alt="" width="105" height="105">
+								</div>
+							</div>
+							<!-- ben phai la món -->
+							<div class="col-xs-9 col-sm-8 in4monan">
+								<div class="tenmon">
+									<div class="tren">
+										<span class="float-xs-right">20.000 VND</span>
+										<b class="ten">Bánh Mì</b>
+									</div>
+									<div class="duoi">
+										nuoc mam, nuoc tuong
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- END row -->
+					</div> 
+					<!-- END motmon -->
+					<div class="col-xs-12 col-sm-6 col-md-4  motmon trua">
+						<div class="row">
+							<div class="col-xs-3 col-sm-4">
+								<!-- ben trai la ảnh -->
+								<div class="anhnmon">
+									<!-- <div class="tagnew">NEW</div> -->
+									<img src="images/nem nuong.jpg" alt="" width="105" height="105">
+								</div>
+							</div>
+							<!-- ben phai la món -->
+							<div class="col-xs-9 col-sm-8 in4monan">
+								<div class="tenmon">
+									<div class="tren">
+										<span class="float-xs-right">$35.05</span>
+										<b class="ten">Nem Nướng</b>
+									</div>
+									<div class="duoi">
+										nuoc mam, nuoc tuong
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- END row -->
+					</div> 
+					<!-- END motmon -->
+					<div class="col-xs-12 col-sm-6 col-md-4  motmon toi">
+						<div class="row">
+							<div class="col-xs-3 col-sm-4">
+								<!-- ben trai la ảnh -->
+								<div class="anhnmon">
+									<div class="tagnew">NEW</div>
+									<img src="images/hutieu.jpg" alt="" width="105" height="105">
+								</div>
+							</div>
+							<!-- ben phai la món -->
+							<div class="col-xs-9 col-sm-8 in4monan">
+								<div class="tenmon">
+									<div class="tren">
+										<span class="float-xs-right">25.000 VND</span>
+										<b class="ten">Hủ Tiếu</b>
+									</div>
+									<div class="duoi">
+										nuoc mam, nuoc tuong
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- END row -->
+					</div> 
+					<!-- END motmon -->	
+				</div>
+			</div>
+		
+		</div>
+		<!-- END noidungct -->
+
+	</div>
+	<!-- END thucdonct -->
+
+
+	
+	<!-- Slidemonanduoi -->
+	<div class="slidemonan">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 wow swing">
+					<h4>Our Special Dishes</h4>
+				</div>
+			</div>
+
+			<div class="row">
+				<div id="slidemonaduoi" data-interval="5000" class="carousel slide" data-ride="carousel"> <!-- data-interval: chỉnh thời gian chuyển sile(mili giây) -->
+					<ol class="carousel-indicators">
+						<li data-target="#slidemonaduoi" data-slide-to="0" class="active"></li>
+						<li data-target="#slidemonaduoi" data-slide-to="1"></li>
+						<li data-target="#slidemonaduoi" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="carousel-item active">
+							<div class="row">
+								<div class="sanpham">
+									<img src="images/fdt2.jfif" class="anhspslide" alt="">
+									<div class="tensp">				
+										<div class="gia float-xs-right">$100</div>
+										<div class="ten">Trung Op La</div>
+									</div>
+									<div class="tencongthuc">
+										nuoc mam nuoc tuong
+									</div>
+								</div>
+								<!-- END sanpham -->
+								<div class="sanpham">
+									<img src="images/fdt2.jfif" class="anhspslide" alt="" >
+									<div class="tensp">				
+										<div class="gia float-xs-right">$100</div>
+										<div class="ten">Trung Op La</div>
+									</div>
+									<div class="tencongthuc">
+										nuoc mam nuoc tuong
+									</div>
+								</div>
+								<!-- END sanpham -->
+								<div class="sanpham">
+									<img src="images/fdt2.jfif" class="anhspslide" alt="" >
+									<div class="tensp">				
+										<div class="gia float-xs-right">$100</div>
+										<div class="ten">Trung Op La</div>
+									</div>
+									<div class="tencongthuc">
+										nuoc mam nuoc tuong
+									</div>
+								</div>
+								<!-- END sanpham -->
+								<div class="sanpham">
+									<img src="images/fdt2.jfif" class="anhspslide" alt="" >
+									<div class="tensp">				
+										<div class="gia float-xs-right">$100</div>
+										<div class="ten">Trung Op La</div>
+									</div>
+									<div class="tencongthuc">
+										nuoc mam nuoc tuong
+									</div>
+								</div>
+								<!-- END sanpham -->
+								<div class="sanpham">
+									<img src="images/fdt2.jfif" class="anhspslide" alt="" >
+									<div class="tensp">				
+										<div class="gia float-xs-right">$100</div>
+										<div class="ten">Trung Op La</div>
+									</div>
+									<div class="tencongthuc">
+										nuoc mam nuoc tuong
+									</div>
+								</div>
+								<!-- END sanpham -->
+							</div>
+							<!-- END row -->
+						</div>
+						<!-- END 1 slide -->
+
+						<div class="carousel-item">
+							<div class="row">
+								<div class="sanpham">
+									<img src="images/fdt2.jfif" class="anhspslide" alt="" >
+									<div class="tensp">				
+										<div class="gia float-xs-right">$100</div>
+										<div class="ten">Trung Op La</div>
+									</div>
+									<div class="tencongthuc">
+										nuoc mam nuoc tuong
+									</div>
+								</div>
+								<!-- END sanpham -->
+								<div class="sanpham">
+									<img src="images/fdt2.jfif" class="anhspslide" alt="" >
+									<div class="tensp">				
+										<div class="gia float-xs-right">$100</div>
+										<div class="ten">Trung Op La</div>
+									</div>
+									<div class="tencongthuc">
+										nuoc mam nuoc tuong
+									</div>
+								</div>
+								<!-- END sanpham -->
+								<div class="sanpham">
+									<img src="images/fdt2.jfif" class="anhspslide" alt="" >
+									<div class="tensp">				
+										<div class="gia float-xs-right">$100</div>
+										<div class="ten">Trung Op La</div>
+									</div>
+									<div class="tencongthuc">
+										nuoc mam nuoc tuong
+									</div>
+								</div>
+								<!-- END sanpham -->
+								<div class="sanpham">
+									<img src="images/fdt2.jfif" class="anhspslide" alt="" >
+									<div class="tensp">				
+										<div class="gia float-xs-right">$100</div>
+										<div class="ten">Trung Op La</div>
+									</div>
+									<div class="tencongthuc">
+										nuoc mam nuoc tuong
+									</div>
+								</div>
+								<!-- END sanpham -->
+								<div class="sanpham">
+									<img src="images/fdt2.jfif" class="anhspslide" alt="" >
+									<div class="tensp">				
+										<div class="gia float-xs-right">$100</div>
+										<div class="ten">Trung Op La</div>
+									</div>
+									<div class="tencongthuc">
+										nuoc mam nuoc tuong
+									</div>
+								</div>
+								<!-- END sanpham -->
+							</div>
+							<!-- END row -->
+						</div>
+						<!-- END 1 slide -->
+
+						<div class="carousel-item">
+							<div class="row">
+								<div class="sanpham">
+									<img src="images/fdt2.jfif" class="anhspslide" alt="" >
+									<div class="tensp">				
+										<div class="gia float-xs-right">$100</div>
+										<div class="ten">Trung Op La</div>
+									</div>
+									<div class="tencongthuc">
+										nuoc mam nuoc tuong
+									</div>
+								</div>
+								<!-- END sanpham -->
+								<div class="sanpham">
+									<img src="images/fdt2.jfif" class="anhspslide" alt="" >
+									<div class="tensp">				
+										<div class="gia float-xs-right">$100</div>
+										<div class="ten">Trung Op La</div>
+									</div>
+									<div class="tencongthuc">
+										nuoc mam nuoc tuong
+									</div>
+								</div>
+								<!-- END sanpham -->
+								<div class="sanpham">
+									<img src="images/fdt2.jfif" class="anhspslide" alt="" >
+									<div class="tensp">				
+										<div class="gia float-xs-right">$100</div>
+										<div class="ten">Trung Op La</div>
+									</div>
+									<div class="tencongthuc">
+										nuoc mam nuoc tuong
+									</div>
+								</div>
+								<!-- END sanpham -->
+								<div class="sanpham">
+									<img src="images/fdt2.jfif" class="anhspslide" alt="" >
+									<div class="tensp">				
+										<div class="gia float-xs-right">$100</div>
+										<div class="ten">Trung Op La</div>
+									</div>
+									<div class="tencongthuc">
+										nuoc mam nuoc tuong
+									</div>
+								</div>
+								<!-- END sanpham -->
+								<div class="sanpham">
+									<img src="images/fdt2.jfif" class="anhspslide" alt="" >
+									<div class="tensp">				
+										<div class="gia float-xs-right">$100</div>
+										<div class="ten">Trung Op La</div>
+									</div>
+									<div class="tencongthuc">
+										nuoc mam nuoc tuong
+									</div>
+								</div>
+								<!-- END sanpham -->
+							</div>
+							<!-- END row -->
+						</div>
+						<!-- END 1 slide -->
+					</div>
+					<a class="left trai carousel-control" href="#slidemonaduoi" role="button" data-slide="prev">
+						<span class="icon-prev" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#slidemonaduoi" role="button" data-slide="next">
+						<span class="icon-next" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+			<!-- END row -->
+		</div>
+	</div>
+	<!-- END slidemonan -->
+
+
+
+
+	<div class="gioithieudaubep">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-sm-6">
+					<img src="images/chef.jpg" alt="" class="anhdaubep wow fadeInLeft">
+				</div>
+				
+				<div class="col-sm-6">
+					<div class="thongtin wow fadeInRight">
+						<h2 class="fontoswald">Le Ngoc Hau</h2>
+						<span class="Master fontdacing">The Master of Design</span>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, fugiat sequi enim cupiditate minus ipsam ut amet suscipit voluptas, quasi natus? Consequuntur possimus repellat earum non tempore eaque cumque officia.</p>
+					</div>
+					<!-- END thongtin -->
+					<div class="lienhe wow fadeInUp" data-wow-delay="0.2s">
+						<a href="" class="iconlhdb"><i class="fa fa-facebook"></i></a>
+						<a href="" class="iconlhdb"><i class="fa fa-instagram"></i></a>
+						<a href="" class="iconlhdb"><i class="fa fa-pinterest-p"></i></a>
+						<a href="" class="iconlhdb"><i class="fa fa-twitter"></i></a>
+					</div>
+				</div>
+			</div>
+		<!-- </div> -->
+		</div>
+	</div>
+	<!-- END gioithieudaubep -->
+
+
+
+	<div class="sloganhome wow fadeInUp">
+		<div class="container text-xs-center">
+			<div class="row">
+				<div class="col-sm-8 push-sm-2">
+					<h3 class="fontdacing">Enjoy Plesant Time With Friends and Partners</h3>
+					<span class="fontoswald">Relaxing Atmosphere</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END sloganhome -->
+
+
+
+	<div class="khoidatban text-xs-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3"></div>
+				<div class="col-sm-6">
+					<div class="thongtindatban">
+						<h2 class="fontroboto">Make A Reservation</h2>
+						<p class="tt fontroboto" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit fuga, debitis,  corporis tempora voluptatem laudantium. Autem.</p>
+						<div class="giodb fontroboto">Monday To Friday <span class="vang">9:00 am - 23:00 pm</span> Saturday and Sunday <span class="vang">10:00am - 22:00pm</span> Note: Restaurant is closed on holidays</div>
+					<div class="dtdb fontoswald">(+84) 009 002 001</div>
+					</div>
+					<!-- END thongtindatban -->
+				</div>
+				<div class="col-sm-3"></div>
+
+				<div class="col-sm-10 push-sm-1">
+					<div class="formdatban">
+						<div class="row">
+							<div class="col-sm-12">
+								<h2 class="booktext text-xs-center fontoswald">- Book Your Table Online -</h2>
+							</div>
+
+							<div class="col-sm-4">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Yoour Name*">
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="form-group">
+									<input type="email" class="form-control" placeholder="Your Email*">
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="form-group">
+									<input type="number" class="form-control" placeholder="Your Mobile*">
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="form-group">
+									<input type="date" class="form-control" placeholder="Date*">
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="form-group">
+									<input type="time" class="form-control" placeholder="Time">
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="form-group">
+									<input type="number" class="form-control" placeholder="Amount Of People">
+								</div>
+							</div>
+							<div class="col-sm-12 text-xs-center">
+								<a href="" class="btn btn-warning  booktable  wow swing " data-wow-iteration="2">Book Table Now</a>
+							</div>
+						</div>
+					</div>
+					<!-- END formdatban -->
+				</div>
+			</div>
+		</div>	
+	</div>
+	<!-- END khoidatban -->
+
+
+
+	<div class="phanhoinguoidung">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10 push-sm-1 text-xs-center">
+					<div id="phanhoi" class=" carousel slide " data-interval="5000" data-ride="carousel" >
+						<ol class="bacham  carousel-indicators">
+							<li data-target="#phanhoi" data-slide-to="0" class="active"></li>
+							<li data-target="#phanhoi" data-slide-to="1"></li>
+							<li data-target="#phanhoi" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner" role="listbox">
+							<div class="carousel-item active">
+								<i class="fa fa-quote-left"></i>
+								<div class="quote fontroboto">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt illum, optio. Perspiciatis nesciunt iste dolor possimus ipsa minima pariatur, quod accusantium praesentium minus vitae quas expedita necessitatibus ex iure aut.
+								</div>
+								<i class="fa fa-quote-right"></i>
+								<div class="tennguoi fontdacing">Gavin</div>
+							</div>
+
+							<div class="carousel-item">
+								<i class="fa fa-quote-left"></i>
+								<div class="quote fontroboto">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt illum, optio. Perspiciatis nesciunt iste dolor possimus ipsa minima pariatur, quod accusantium
+								</div>
+								<i class="fa fa-quote-right"></i>
+								<div class="tennguoi fontdacing">Leo</div>
+							</div>
+
+							<div class="carousel-item">
+								<i class="fa fa-quote-left"></i>
+								<div class="quote fontroboto">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt illum, optio. Perspiciatis nesciunt iste dolor possimus ipsa minima pariatur, quod accusantium 
+								</div>
+								<i class="fa fa-quote-right"></i>
+								<div class="tennguoi fontdacing">Hau</div>
+							</div>
+							
+						</div>
+						<!-- <a class="left carousel-control" href="#phanhoi" role="button" data-slide="prev">
+							<span class="icon-prev" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#phanhoi" role="button" data-slide="next">
+							<span class="icon-next" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END phanhoinguoidung -->
+
+
+
+	<div class="tintuchome">	
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-xs-center">
+					<div class="tdtintuchome">
+						<span class="ourblog  fontdacing">Our Blog</span>
+						<h2>Latest Nes Update</h2>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 col-xs-12  wow fadeInUp">
+					<a href=""><img src="images/tip1.jpg" alt="" width="300" height="210"></a>
+					<a href="" class="tieudetin1 fontoswald">The Best Tips For Tasty Food</a>
+				 	<div class="ngaythang1  fontroboto">10 November 2021 by <span class="vang"> Gavin Lee</span> </div>
+				 	<p class="fontroboto">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Qui earum nostrum eius maiores laborum itaque tenetur sunt consectetur ut </p>
+					
+					<div class="docthem">
+						<div class="like float-xs-right">99 like</div>
+						<a href="" class="rm">Read More</a>	
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-6 col-xs-12  wow fadeInUp">
+					<a href=""><img src="images/tip2.jpg" alt="" width="300" height="210"></a>
+					<a href="" class="tieudetin1 fontoswald">The Best Tips For Tasty Food</a>
+				 	<div class="ngaythang1">10 November 2021 by <span class="vang"> Gavin Lee</span> </div>
+				 	<p class="fontroboto">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Qui earum nostrum eius maiores laborum itaque tenetur sunt consectetur ut </p>
+					
+					<div class="docthem">
+						<div class="like float-xs-right">99 like</div>
+						<a href="" class="rm">Read More</a>	
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-6 col-xs-12  wow fadeInUp">
+					<a href=""><img src="images/tip3.jpg" alt="" width="300" height="210"></a>
+					<a href="" class="tieudetin1 fontoswald">The Best Tips For Tasty Food</a>
+				 	<div class="ngaythang1">10 November 2021 by <span class="vang"> Gavin Lee</span> </div>
+				 	<p class="fontroboto">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Qui earum nostrum eius maiores laborum itaque tenetur sunt consectetur ut </p>
+
+					<div class="docthem">
+						<div class="like float-xs-right">99 like</div>
+						<a href="" class="rm">Read More</a>	
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END tintuchome -->
+
+
+
+
+	<div class="footertop">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3 cotf1">
+					<a href=""><img src="images/logo.png" alt="logof"></a>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis nisi eum quae omnis vitae quisquam vel eos dicta error, inventore.</p>
+					<div class="lienheft">
+						<i class="fa fa-map-marker"></i>
+						<span class="textlhft fontroboto">Address: 123 Nguyen Trung Truc Street, Viet Nam</span>
+					</div>
+					<div class="lienheft">
+						<i class="fa fa-phone"></i>
+						<span class="textlhft fontroboto">Phone: (+84) 009 002 001</span>
+					</div>
+					<div class="lienheft">
+						<i class="fa fa-envelope-o"></i>
+						<span class="textlhft fontroboto">Email: haule@gmail.com</span>
+					</div>    
+				</div>
+				<!-- END cotf1 -->
+				
+				<div class="col-sm-2 push-sm-1 cotf2">
+					<h2 class="tdft">Userfull Link 1</h2>
+					<ul>
+						<li><a href="">About Company</a></li>
+						<li><a href="">Reservation</a></li>
+						<li><a href="">Center</a></li>
+						<li><a href="">Our Blog</a></li>
+						<li><a href="">Careers</a></li>
+						<li><a href="">Contact us</a></li>
+					</ul>
+				</div>
+				<!-- END cotf2 -->
+				
+				<div class="col-sm-3 cotf3">
+					<h2 class="tdft">Lastest Blog Post</h2>
+					<div class="container">
+						<div class="row"> 
+
+							<div class="col-sm-5 cotf3trai  wow pulse">
+								<img src="images/chef.jpg" class="anhcotf3 " alt="" width="60" height="60">
+							</div>
+							<div class="col-sm-7 cotf3phai  wow pulse" style="padding: 0;">
+								<h6>Gavin Lee</h6>
+								<span style="font-size: 12.5px;">1st December 2021</span>
+							</div>
+							
+							<div class="col-sm-5 cotf3trai  wow pulse" data-wow-delay="0.5s">
+								<img src="images/chef.jpg" class="anhcotf3 " alt="" width="60" height="60">
+							</div>
+							<div class="col-sm-7 cotf3phai  wow pulse" data-wow-delay="0.5s" style="padding: 0;">
+								<h6>Leo</h6>
+								<span style="font-size: 12.5px;">1st December 2021</span>
+							</div>
+
+							<div class="col-sm-5 cotf3trai  wow pulse" data-wow-delay="1s">
+								<img src="images/chef.jpg" class="anhcotf3 " alt="" width="60" height="60">
+							</div>
+							<div class="col-sm-7 cotf3phai  wow pulse" data-wow-delay="1s" style="padding: 0;">
+								<h6>Hau</h6>
+								<span style="font-size: 12.5px;">1st December 2021</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END cotf3 -->
+				
+				<div class="col-sm-3 cotf4 wow pulse" data-wow-iteration="2">
+					<h2 class="tdft">Opening Hours</h2>
+					<div class="opening1">
+						<div class="phai float-xs-right">9:00 am - 23:00 pm</div>
+						<div class="trai">Mon - Fri</div>
+					</div>
+					<div class="opening1">
+						<div class="phai float-xs-right">10:00 am - 22:00 pm</div>
+						<div class="trai">Saturday</div>
+					</div>
+					<div class="opening1">
+						<div class="phai float-xs-right">9:00 am - 23:00 pm</div>
+						<div class="trai">Sunday</div>
+					</div>
+					<p>Note: Restaurant is closed on holidays</p>
+				</div>
+				<!-- END cotf4 -->
+
+			</div>
+		</div>
+	</div>
+	<!-- END footertop -->
+
+
+	<div class="footerbottom text-xs-center fontroboto  wow fadeInUp">
+		Copyright © 2021 | Web Designed by Leo Ngoc Hau
+	</div>
+
+</body>
+</html>
+
